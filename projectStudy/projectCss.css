@@ -1,0 +1,67 @@
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            table-layout:fixed;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            vertical-align: top;
+            width:16.6%;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .day th:nth-child(1) {
+            background-color:beige;
+        }
+        .day th:nth-child(2) {
+            background-color: beige;
+        }
+        .day th:nth-child(3) {
+            background-color:darkgrey;
+        }
+        .day th:nth-child(4) {
+            background-color:saddlebrown;
+        }
+        .day th:nth-child(5) {
+            background-color:green;
+        }
+        .day th:nth-child(6) {
+            background-color:hotpink;
+        }
+        .day th:nth-child(7) {
+            background-color:gold;
+        }
+
+
+        td:hover {
+            background-color: brown;
+            transition: background-color 1s ease;
+            font-weight: 700;
+        }
+        
+        .sort td{
+        text-align: center;
+        vertical-align: middle;
+        }
+
+        .favorite {
+            font-weight: 100;
+            color:slategrey;
+        }
+
+        body {
+            background-image: url("sang.png");
+            background-size: 150px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: right bottom;
+            
+        }
+
+        a:link {color:blue;}
+        a:visited{color:aliceblue;}

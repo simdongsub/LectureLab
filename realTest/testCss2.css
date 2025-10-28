@@ -1,0 +1,8 @@
+            a:link {
+                color:blue;
+            }
+            a:visited {
+                color :yellow;
+            }
+            li.nemo{list-style-type: square;} 
+            p {font-size:10px;}
