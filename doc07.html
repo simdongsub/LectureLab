@@ -6,9 +6,9 @@
             <form method="get" action = "https://lib.smu.ac.kr/Search/" name="lib">
                 <fieldset> <!--disabled는 선택을 못하게 하는 특징이 있다.-->
                     <legend>개인정보</legend> <!--placeholder 사용자로부터 사용자로 하여금 가이드라인을 넣어줄 때 사용하는 것이다.-->
-                성명:<input type="text" name="person" placeholder="성명"/> <br> <!--value저기는 기본값임 ,password는 보안이 취약하면 post로 보내면 된다.-->
-                성별:<input type="radio" name="sex" value="male" checked/> 남성
-                    <input type ="radio" name="sex" value="female" checked/> 여성 <br>
+                성명:<input type="text" name="q" placeholder="성명"/> <br> <!--value저기는 기본값임 ,password는 보안이 취약하면 post로 보내면 된다.-->
+                캠퍼스:<input type="radio" name="campuscode" value="male" checked/> 서울
+                    <input type ="radio" name="campuscode" value="female" checked/> 천안 <br>
                     <input type="hidden" name="hidden" value="hidden"/> <!--데이터는 날아가지만 사용자가 데이터를 볼 수 없다.-->
                 직업: <select name="job" size ="2" multiple> <!--multiple 여러개를 복수 선택이 가능한 것-->
                     <option>학생</option> <option>회사원</option>
